@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ImagePro</string>
+    <string name="add">Add</string>
+    <string name="clear">Clear</string>
+    <string name="sign_language">Sign Language</string>
+    <string name="recognition">Recognition</string>
+    <string name="real_time_recognition">Real-time Recognition</string>
+    <string name="combine_letter">Combine letter</string>
+    <string name="read">Read</string>
+</resources>

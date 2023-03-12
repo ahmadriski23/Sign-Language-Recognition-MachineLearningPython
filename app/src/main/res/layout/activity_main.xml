@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_language"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recognition"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        />
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/combine_letter_button"
+        android:text="Combine Letter"
+        android:textAllCaps="false"
+        />
+
+<!--    <Button-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:id="@+id/combine_number_button"-->
+<!--        android:text="Combine Number"-->
+<!--        android:textAllCaps="false"-->
+<!--        />-->
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/speech_text_button"
+        android:text="Speech To Text"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_list_image"
+        android:text="Sign Language A-Z"
+        android:textAllCaps="false"
+        />
+<!--    <Button-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:id="@+id/camera_button"-->
+<!--        android:text="@string/real_time_recognition"-->
+<!--        android:textAllCaps="false"-->
+<!--        -->
+<!--        />-->
+    <!--
+    add new button
+    This is the most basic design you can improve this.
+    -->
+
+
+
+</LinearLayout>
